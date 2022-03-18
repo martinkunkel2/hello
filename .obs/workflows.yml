@@ -2,7 +2,7 @@ main_workflow:
   steps:
     - branch_package:
         source_project: home:martinkunkel:github
-        source_package: obs-scm-test
+        source_package: hello
         target_project: home:martinkunkel:github:CI
   filters:
     event: pull_request
@@ -10,7 +10,7 @@ rebuild_master:
   steps:
     - rebuild_package:
         project: home:martinkunkel:github
-        package: obs-scm-test
+        package: hello
   filters:
     event: push
     branches:
