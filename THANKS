@@ -8,7 +8,7 @@ Additional contributors to GNU Hello.
 
 Thanks to:
 
-    François Pinard for assistance and good ideas.
+    FranÃ§ois Pinard for assistance and good ideas.
 
     Jochen Hein for pre-testing and bug reports.
 
@@ -28,3 +28,4 @@ Thanks to:
     All the translators (run 'grep -e ^\"Last-Translator: po/*.po').
 
 See also the AUTHORS and ChangeLog files.
+#test
